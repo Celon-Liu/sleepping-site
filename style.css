@@ -1,0 +1,11 @@
+:root { --bg:#f7f6fb; --fg:#1d1b2e; --muted:#5d5a75; --accent:#6c5ce7; --card:#ffffff; }
+@media (prefers-color-scheme: dark) { :root { --bg:#0f0e1a; --fg:#ecebf5; --muted:#a3a0bd; --accent:#a29bfe; --card:#1a1830; } }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.75 -apple-system, "PingFang SC", "Helvetica Neue", sans-serif; }
+main { max-width:720px; margin:0 auto; padding:48px 16px 64px; }
+h1 { font-size:28px; margin:0 0 4px; }
+h2 { font-size:19px; margin:32px 0 8px; }
+p, li { color:var(--fg); }
+.muted { color:var(--muted); font-size:14px; }
+a { color:var(--accent); }
+.card { background:var(--card); border-radius:14px; padding:16px 20px; margin:16px 0; }
